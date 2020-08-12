@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proffy</title>
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <meta name="theme-color" content="#8257E5">
+  <link rel="shortcut iocn" href="images/favicon.png" type="image/png">
+  <link rel="stylesheet" type="text/css" href="styles/partials/page-success.css">
+  <link rel="stylesheet" type="text/css" href="styles/partials/header.css">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+</head>
+<body id="page-success">
+  
+<div id="container">
+  <header class="page-header">
+      <div class="top-bar-container">
+          <a href="/">
+              <img src="images/icons/back.svg" alt="Voltar">
+          </a>
+          <img src="images/logo.svg" alt="Proffy">
+      </div>
+      <div class="header-content">
+          <strong>Que incrivel que você quer dar aulas !</strong>
+          <p> Seu cadastro de aula foi eferuado  !</p>
+      </div>
+  </header> 
+
+  <main>
+      <a href="/" >Ir para a página inicial</a>
+      <p>Caso não volte para página inicial você será redirecionado ao Study</p>
+  </main>
+</div>
+<script>
+  const x = setTimeout(() => { window.location.href = "/study" 
+  clearTimeout(x) }, 5000); 
+</script>
+</body>
+</html>
